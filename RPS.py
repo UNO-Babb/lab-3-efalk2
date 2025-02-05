@@ -22,6 +22,8 @@ def main():
       print("Player chose paper.")
     elif (personChoice == "S"):
       print("Player chose scissors.")
+    else:
+      print("Invalid Option.")
 
     if (computer == "R"):
       print("Computer chose rock.")
